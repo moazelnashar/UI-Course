@@ -1,0 +1,356 @@
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.container 
+{
+  max-width: 1180px;
+  margin: 0 auto;
+}
+/* Header */
+.nav-wrapper {
+  position: relative;
+  height: 114px;
+  width: 1180px;
+  margin: 0 auto;
+  line-height: 114px;
+  border-bottom: 1px solid #E5e5e5
+}
+.nav-wrapper h1,
+.core-nav,
+.interactions-nav,
+.search-link
+{
+  position: absolute;
+  display: inline-block;
+  list-style: none;
+}
+.nav-wrapper h1 
+{
+  left: 0%;
+  top: 0%;
+}
+.nav-wrapper li 
+{
+  display: inline-block;
+  list-style: none;
+  margin: 0 20px;
+}
+.nav-wrapper .active a 
+{
+  color: #ff510a;
+}
+.nav-wrapper a {
+  color: #000;
+  text-decoration: none;
+}
+.nav-wrapper a:hover 
+{
+  color: #ff510a;
+}
+.core-nav,
+.interactions-nav
+{
+  display: inline-block;
+}
+.core-nav {
+  right: 53%;
+}
+.interactions-nav 
+{
+  right: 20%;
+}
+.login-image,
+.login-text
+{
+  display: inline-block;
+}
+.login-image
+{
+  position: absolute;
+  right: 83%;
+  top: 38%;
+}
+.basket-image,
+.basket-text
+{
+  display: inline-block;
+}
+.basket-image
+{
+  position: absolute;
+  right: 30%;
+  top: 38%;
+}
+.search-input,
+.search-link
+{
+  display: inline-block;
+}
+.search-input
+{
+  position: absolute;
+  right: 3.5%;
+  top: 43%;
+  width: 165px;
+  height: 40px;
+  font-size: 14px;
+  text-indent: 7%;
+  border: 1px solid #606060
+}
+.search-link
+{
+  position: absolute;
+  right: 0%;
+  top: 25%;
+}
+
+/* Index.html*/
+.content-newsletter input
+{
+  width: 400px;
+  height: 40px;
+  text-indent: 3%;
+}
+.products
+{
+  padding: 10% 0 10% 0;
+  text-align: center;
+  position: relative;
+}
+.products h1  
+{
+  font-size: 72px;
+  font-weight: 400;
+  text-transform: uppercase;
+  line-height: 55px;
+  color: #000000;
+}
+.products p
+{
+  font-family: 'Georgia';
+  font-size: 24px;
+  color: #606060;
+  font-style: italic;
+}
+.products a
+{
+  position: absolute;
+  bottom: 8%;
+  left: 42%;
+  color: #606060;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 15px;
+  text-transform: uppercase;
+  border: 1px solid #606060
+}
+.content-image img
+{
+  padding-top: 8%;
+  max-width: 1200px;
+}
+.content-newsletter
+{
+  padding-top: 10%;
+  text-align: center;
+}
+.content-newsletter h1
+{
+  text-transform: uppercase;
+  font-size: 30px;
+  color: #000000;
+}
+.content-newsletter p
+{
+  font-family: 'Georgia';
+  font-size: 20px;
+  font-style: italic;
+  color: #606060;
+}
+.content-newsletter form
+{
+  padding-top: 3%;
+}
+.content-newsletter input
+{
+  width: 400px;
+  height: 40px;
+  text-indent: 3%;
+}
+.content-newsletter button
+{
+  width: 75px;
+  height: 40px;
+  border: none;
+  color: #ffffff;
+  background-color: orange;
+}
+/* Men.html */
+.breadcrumb
+{
+  padding-top: 3%;
+}
+.breadcrumb a
+{
+  margin: 20px 5px;
+  text-transform: uppercase;
+  color: #000000;
+}
+.breadcrumb a:hover 
+{
+  color: #ff510a;
+}
+.coats,
+.outwear,
+.t-shirts
+{
+  padding-top: 10%;
+}
+.coats h1,
+.outwear h1,
+.t-shirts h1
+{
+ text-transform: uppercase;
+ text-align: center;
+}
+.coats p,
+.outwear p,
+.t-shirts p
+{
+  text-align: center;
+  font-style: italic;
+}
+.coats-table,
+.outwear-table,
+.t-shirts-table
+{
+  padding-top: 3%;
+}
+.coats-table td,
+.outwear-table td,
+.t-shirts-table td
+{
+  padding-left: 70px;
+  text-align: center;
+}
+.coats-table tr:nth-child(2) td,
+.outwear-table tr:nth-child(2) td,
+.t-shirts-table tr:nth-child(2) td
+{
+  padding-top: 3%;
+  font-size: 16px;
+  font-weight: bolder;
+}
+.coats-table tr:nth-child(3) td,
+.outwear-table tr:nth-child(3) td,
+.t-shirts-table tr:nth-child(3) td
+{
+  padding-top: 1%;
+  font-size: 14px;
+}
+.coats-table a,
+.outwear-table a,
+.t-shirts-table a
+{
+  display: inline-block;
+  padding-bottom: 3%;
+  width: 208px;
+  height: 256px;
+  background: #fff url(../images/Products.jpg) 50% 50% no-repeat;
+  border: 0;
+  font-size: 0;
+}
+/* Footer */
+.footer-wrapper
+{
+  position: relative;
+  margin: 0 auto;
+  height: 250px;
+  max-width: 1200px;
+}
+.footer-wrapper ul
+{
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.footer-wrapper ul,
+.footer-wrapper li
+{
+  font-size: 16px;
+  margin: 15px 0;
+}
+.footer-wrapper a
+{
+  text-decoration: none;
+  text-transform: none;
+  font-size: 14px;
+  font-weight: normal;
+  color: #000000;  
+}
+.footer-wrapper a:hover 
+{
+  color: #ff510a;
+} 
+.collection,
+.site,
+.shop,
+.social-links
+{
+  position: absolute;
+  display: inline-block;
+  width: 300px;
+  height: 215px;
+  top: 25%;
+  list-style: none;
+}
+.collection
+{
+  left: 0%;
+  bottom: 0%;
+  border-right: 1px solid #E5e5e5
+}
+.site
+{
+  left: 23%;
+  bottom: 0%;
+  border-right: 1px solid #E5e5e5
+}
+.shop
+{
+  left: 46%;
+  bottom: 0%;
+  border-right: 1px solid #E5e5e5
+}
+.social-links
+{
+  margin: 1% 0 0 72%;
+
+}
+.social-links p,
+.social-links a
+{
+ margin: 20px 0;
+}
+.social-links h1
+{
+  font-size: 16px;
+  text-transform: uppercase;
+}
+.social-links p
+{
+  text-decoration: none;
+  text-transform: none;
+  font-size: 14px;
+  font-weight: 100px;
+  color: #000000;  
+}
+.twitter-icon a ,
+.facebook-icon a,
+.instagram-icon a
+{
+  font-size: 0;
+}
+
