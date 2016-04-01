@@ -186,7 +186,7 @@
   height: 40px;
   border: none;
   color: #ffffff;
-  background-color: orange;
+  background-color: #F48240;
 }
 /* Men.html */
 .breadcrumb
@@ -263,6 +263,404 @@
   border: 0;
   font-size: 0;
 }
+/* basket.html */
+.basket__header,
+.shipping_address,
+.payment_options
+{
+  padding: 6% 0 0 0;
+  text-align: center;
+}
+.shipping_address,
+.payment_options
+{
+  border: 1px solid #E5e5e5
+}
+.basket__header h1,
+.shipping_address h1,
+.payment_options h1  
+{
+  font-size: 48px;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #000000;
+}
+.basket__header p,
+.shipping_address p,
+.payment_options p
+{
+  padding: 0% 0 6% 0;
+  font-family: 'Georgia';
+  font-size: 20px;
+  color: #606060;
+  font-style: italic;
+}
+.down_button
+{
+  padding-top: 5%;
+  padding-bottom: 5%; 
+}
+.down_button button
+{
+  padding-right: 100%;
+  width: 100px;
+  height: 20px;
+  background: #fff url(../images/Down-button.jpg) 50% 50% no-repeat;
+  border: 0;
+  font-size: 0;
+}
+
+.basket-table tr
+{
+  border-bottom: 1px solid #E5e5e5
+}
+.basket-table th
+{
+  padding-bottom: 1%;
+  text-transform: uppercase;
+  font-family: 'Georgia';
+  font-size: 12px;
+  color: #606060;
+}
+.basket-table tfoot
+{
+  padding-top: 3%;
+  background-color: #F7F7F7;
+}
+.basket-table tfoot tr
+{
+  border: 0;
+}
+.basket__total
+{
+  color: #F48240;
+}
+.basket-table td
+{
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+.basket-table th:nth-child(1)
+{
+  padding-right: 13%;
+
+}
+.basket-table th:nth-child(2)
+{
+  padding-right: 60%;
+}
+.basket-table th:nth-child(3),
+.basket-table th:nth-child(4),
+.basket-table th:nth-child(5),
+.basket-table th:nth-child(6)
+{
+  padding-right: 15%;
+}
+.basket-table th:nth-child(7)
+{
+  padding-right: 5%;
+}
+.basket-table h1
+{
+  font-size: 14px;
+  text-transform: uppercase;
+}
+.basket-table p
+{
+  line-height: 10%;
+  font-family: 'Georgia';
+  font-size: 12px;
+  color: #606060;
+  font-style: italic;
+}
+.basket-table a
+{
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  background: #fff url(../images/Basket-item.jpg) 50% 50% no-repeat;
+  border: 0;
+  font-size: 0;
+}
+.delete_button
+{
+  background-color: white;
+  border: 0;
+}
+.product__amount
+{
+  position: relative;
+}
+.plus_button,
+.minus_button
+{
+  width: 20px;
+  height: 20px;
+  color: white;
+  background-color: black;
+  border: 0;
+}
+.plus_button
+{
+  position: absolute;
+  bottom: 55%;
+  left: 10%
+}
+.minus_button
+{
+  position: absolute;
+  top: 50%;
+  left: 10%
+}
+.shipping_form
+{
+  margin: 0 auto;
+  max-width: 580px;
+  height: 700px;
+  position: relative;
+}
+.delivery_method_value,
+.address1_input,
+.address2_input
+{
+  width: 580px;
+  height: 42px;  
+  border: 2px solid #E5e5e5
+}
+.fname_input,
+.lname_input,
+.city_input,
+.pcode_input,
+.pnumber_input,
+.email_input
+{
+  width: 280px;
+  height: 42px;
+  border: 2px solid #E5e5e5
+}
+.delivery_method,
+.fname,
+.lname,
+.address1 span,
+.address2 span,
+.city,
+.pcode,
+.pnumber,
+.email
+{
+  text-transform: uppercase;
+  font-family: 'Georgia';
+  color: #606060;
+}
+.address1,
+.address2,
+.billing_checkbox
+{
+  font-family: 'Georgia';
+  color: #606060;
+}
+.delivery_method
+{
+  position: absolute;
+  left: 0%;
+  top: 0%;
+}
+.delivery_method_value
+{
+  background-color: white;
+  position: absolute;
+  left: 0%;
+  top: 4%;
+}
+.delivery_method_value option[value="credit_card"] {
+  background-image:url(./images/visa.png);
+}
+.fname
+{
+  position: absolute;
+  left: 0%;
+  top: 15%;
+}
+.fname_input
+{
+  position: absolute;
+  left: 0%;
+  top: 19%;
+
+}
+.lname
+{
+  position: absolute;
+  right: 33%;
+  top: 15%;
+}
+.lname_input
+{
+  position: absolute;
+  right: 0%;
+  top: 19%;
+}
+.address1
+{
+  position: absolute;
+  left: 0%;
+  top: 30%;
+}
+.address1_input
+{
+  position: absolute;
+  left: 0%;
+  top: 34%;
+
+}
+.address2
+{
+  position: absolute;
+  left: 0%;
+  top: 45%;
+}
+.address2_input
+{
+  position: absolute;
+  left: 0%;
+  top: 49%;
+}
+.city
+{
+  position: absolute;
+  left: 0%;
+  top: 60%;
+}
+.city_input
+{
+  position: absolute;
+  left: 0%;
+  top: 64%;
+
+}
+.pcode
+{
+  position: absolute;
+  right: 30%;
+  top: 60%;
+}
+.pcode_input
+{
+  position: absolute;
+  right: 0%;
+  top: 64%;
+}
+.pnumber
+{
+  position: absolute;
+  left: 0%;
+  top: 75%;
+}
+.pnumber_input
+{
+  position: absolute;
+  left: 0%;
+  top: 79%;
+
+}
+.email
+{
+  position: absolute;
+  right: 38%;
+  top: 75%;
+}
+.email_input
+{
+  position: absolute;
+  right: 0%;
+  top: 79%;
+}
+.billing_checkbox
+{
+  position: absolute;
+  left: 38%;
+  top: 90%;
+}
+.billing_checkbox_value
+{
+  position: absolute;
+  left: 34%;
+  top: 90%;
+}
+.payment_options
+{
+  margin: 0 auto;
+  height: 700px;
+  position: relative;
+}
+.subtotal
+{
+  position: absolute;
+  font-size: 20px;
+  font-family: 'Georgia';
+  color: #606060;  
+  top: 40%;
+  right: 0%;
+  width: 100%;
+  text-align: center;
+}
+.shipping_fees
+{
+  position: absolute;
+  font-size: 20px;
+  font-family: 'Georgia';
+  color: #606060;  
+  top: 45%;
+  right: 0%;
+  width: 100%;
+  text-align: center;
+}
+.total
+{
+  position: absolute;
+  font-size: 20px;
+  font-family: 'Georgia';
+  color: #F48240;  
+  top: 50%;
+  right: 0%;
+  width: 100%;
+  text-align: center;
+}
+.payment_method
+{
+  position: absolute;
+  text-transform: uppercase;
+  font-size: 16px;
+  font-family: 'Georgia';
+  color: #606060;  
+  top: 65%;
+  left: 26%;
+}
+.payment_method_value
+{
+  font-family: 'Georgia';
+  color: #606060;  
+  background-color: white;
+  position: absolute;
+  top: 70%;
+  left: 26%;
+  width: 580px;
+  height: 42px;
+  border: 2px solid #E5e5e5
+}
+.order_button
+{ 
+  text-transform: uppercase;
+  color: white;
+  position: absolute;
+  width: 194px;
+  height: 51px;
+  background-color: #F48240;
+  border: 0;
+  top: 80%;
+  left: 41%;
+}
+
 /* Footer */
 .footer-wrapper
 {

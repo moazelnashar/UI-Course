@@ -1,0 +1,176 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Shopping Cart</title>
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/styles.css">
+  </head>
+  <body>
+      <header class="nav-wrapper">
+        <nav class="container">
+          <h1><a href="#!" title="Home"><img src="images/SH.png" alt="SH"></a></h1>
+          <ul class="core-nav">
+              <li><a href="#!">Woman</a></li>
+              <li><a href="men.html">Men</a></li>
+              <li><a href="#!">Kids</a></li>
+              <li><a href="#!">Coming Soon</a></li>
+              <li><a href="#!">About</a></li>
+          </ul>    
+          <ul class="interactions-nav">
+               <li><img class="login-image" src="images/Login.png">Hi, Michal(<a href="#!">logout</a>)</a></li>
+               <li><img class="basket-image" src="images/Basket.png"><a class="basket-text" href="basket.html">Basket(4)</a></li>
+          </ul> 
+          <form>
+              <input class="search-input" type="text" placeholder="Search something..."><a class="search-link" href="#!"><img src="images/Search.png" alt="Search"></a>
+          </form>
+        </nav>
+      </header>
+      
+      <div class="content-wrapper">
+        <div class="container">
+          <section class="basket__header">
+            <h1>Your shopping bag</h1>
+            <p>Items reserved for limited time onlys</p>
+          </section>
+          <section class="basket__content">
+            <div class="basket-table">
+              <table>
+                <thead>
+                  <tr>
+                    <th>Product</th>
+                    <th>Description</th>
+                    <th>Color</th>
+                    <th>Size</th>
+                    <th>QTY</th>
+                    <th>Amount</th>
+                    <th>Delete</th>
+                  </tr>
+                </thead>
+                <tfoot>
+                  <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td>Subtotal:</td>
+                    <td><div class="basket_total">&euro; 567.95</div></td>
+                    <td></td>
+                  </tr>
+                </tfoot>
+                <body>
+                  <tr>
+                    <td><a href="#!"></a></td>
+                    <td><h1>Floral plimsoll</h1><p>Ref. 2514/302</p></td>
+                    <td>One Color</td>
+                    <td>39</td>
+                    <td><div class="product__amount">1<button class="plus_button">+</button><button class="minus_button">-</button></div></td>
+                    <td>&euro; 99.95</td>
+                    <td><button class="delete_button">X</button></td>
+                  </tr>
+                  <tr>
+                    <td><a href="#!"></td>
+                    <td><h1>Coated 5 pocket trousers</h1><p>Ref. 8246/044</p></td>
+                    <td>One Color</td>
+                    <td>M</td>
+                    <td><div class="product__amount">1<button class="plus_button">+</button><button class="minus_button">-</button></div></td>
+                    <td>&euro; 169.00</td>
+                    <td><button class="delete_button">X</button></td>
+                  </tr>
+                  <tr>
+                    <td><a href="#!"></td>
+                    <td><h1>Oversized studio blouse</h1><p>Ref. 2401/657</p></td>
+                    <td>Black</td>
+                    <td>S</td>
+                    <td><div class="product__amount">2<button class="plus_button">+</button><button class="minus_button">-</button></div></td>
+                    <td>&euro; 299.00</td>
+                    <td><button class="delete_button">X</button></td>
+                  </tr>
+                </body>
+                
+              </table>
+            </div>
+          </section>
+           <div class="down_button">
+            <button></button>
+          </div>
+          <section class="shipping_address">
+              <h1>Shipping address</h1>
+              <p>All fields are required</p>
+                <form class="shipping_form">
+                  <label class="delivery_method">Select delivery method</label>
+                  <select class="delivery_method_value">
+                    <option value="dhl">DHL international - &euro; 15,00</option>
+                    <option value="aramex">Aramex - &euro; 10,00</option>
+                    <option value="tnt">TNT - &euro; 14,00</option>
+                  </select>
+                  <label class="fname">First name</label>
+                  <input class="fname_input" type="text">
+                  <label class="lname">Last Name</label>
+                  <input class="lname_input" type="text">
+                  <label class="address1">ADDRESS (line 1)</label>
+                  <input class="address1_input" type="text">
+                  <label class="address2">ADDRESS (line 2)</label>
+                  <input class="address2_input" type="text">
+                  <label class="city">City</label>
+                  <input class="city_input" type="text">
+                  <label class="pcode">Postal code</label>
+                  <input class="pcode_input" type="text">
+                  <label class="pnumber">Phone number</label>
+                  <input class="pnumber_input" type="text">
+                  <label class="email">E-mail</label>
+                  <input class="email_input" type="email">
+                  <label class="billing_checkbox">Use this address for Billing</label>
+                  <input class="billing_checkbox_value" type="checkbox">
+                </form>
+          </section>
+          <div class="down_button">
+            <button></button>
+          </div>
+          <section class="payment_options">
+              <h1>Payment options</h1>
+              <p>All fields are required</p>
+              <label class="subtotal">Subtotal: &euro;567,95</label>
+              <label class="shipping_fees">Shipping: &euro;15,00 </label>
+              <label class="total">Total: &euro;582,95</label>
+              <label class="payment_method">Select payment method</label>
+                  <select class="payment_method_value">
+                    <option value="credit_card">Credit card </option>
+                    <option value="cash">Cash on delivery</option>
+                  </select>
+              <input type="submit" class="order_button" value="order now">
+          </section>
+        </div>
+      </div>
+      <footer>
+        <div class="footer-wrapper">
+          <div class="container">
+            <ul class="collection">Collection<li><a href="#!"><small>Woman (1725)</small></a></li>
+              <li><a href="#!"><small>Men (635)</small></a></li>
+              <li><a href="#!"><small>Kids (2514)</small></a></li>
+              <li><a href="#!"><small>Coming Soon (76)</small></a></li>
+            </ul>
+            <ul class="site">Site<li><a href="#!"><small>Terms of Service</small></a></li>
+              <li><a href="#!"><small>Privacy Policy</small></a></li>
+              <li><a href="#!"><small>Copyright Policy</small></a></li>
+              <li><a href="#!"><small>Press Kit</small></a></li>
+              <li><a href="#!"><small>Support</small></a></li>
+            </ul>
+            <ul class="shop">Shop<li><a href="#!"><small>About us</small></a></li>
+              <li><a href="#!"><small>Shipping Methods</small></a></li>
+              <li><a href="#!"><small>Career</small></a></li>
+              <li><a href="#!"><small>Contact</small></a></li>
+            </ul>
+            <div class="social-links">
+              <h1>Social</h1>
+              <p><small>Shopper is made with love in Warsaw, </small></p>
+              <p><small>2014 &copy; All rights reserved. El Passion</small></p>
+              <a class="twitter-icon" href="#!"><img src="images/Twitter.png"></a>
+              <a class="facebook-icon" href="#!"><img src="images/Facebook.png"></a>
+              <a class="instagram-icon" href="#!"><img src="images/Instagram.png"></a>
+            </div>
+          </div>
+        </div>
+      </footer>
+  </body>
+</html>
+
